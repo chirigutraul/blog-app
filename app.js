@@ -15,7 +15,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 const app = express();
 
 const port = process.env.PORT || 3000;
-const URL = process.env.URL;
+const URL = process.env.DATABASE_URI;
 
 app.set('view engine', 'ejs');
 //
